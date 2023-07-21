@@ -1,0 +1,6 @@
+org/openjfx/SystemInfo.class
+module-info.class
+org/openjfx/controller/MainController.class
+org/openjfx/App.class
+org/openjfx/PDFManager.class
+org/openjfx/controller/MainController$1.class
