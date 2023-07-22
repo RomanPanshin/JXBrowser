@@ -17,10 +17,13 @@
         <TextField fx:id="urlField" HBox.hgrow="ALWAYS" />
         <Button text="Go" onAction="#loadUrl" fx:id="goButton" />
         <Button text="New Tab" onAction="#newTab" fx:id="newTabButton" />
+        <Button text="Save Selected Text" onAction="#saveSelectedText" fx:id="saveTextButton" />
+        <Button text="Back" onAction="#goBack" fx:id="backButton" />
     </HBox>
     <TabPane fx:id="tabPane" VBox.vgrow="ALWAYS">
         <Tab text="Tab 1">
             <WebView fx:id="webView" />
         </Tab>
     </TabPane>
+
 </VBox>

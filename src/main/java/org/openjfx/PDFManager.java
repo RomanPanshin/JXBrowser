@@ -15,7 +15,7 @@ public class PDFManager {
 
         // Use try-with-resources to ensure the InputStream is closed after use
         try (InputStream inputStream = httpURLConnection.getInputStream()) {
-            byte[] buffer = new byte[1024*100];
+            byte[] buffer = new byte[1024];
             int len;
             while ((len = inputStream.read(buffer)) != -1) {
                 byteArrayOutputStream.write(buffer, 0, len);

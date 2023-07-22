@@ -25,5 +25,8 @@
     <orderEntry type="library" name="Maven: org.openjfx:javafx-media:mac-aarch64:20" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-swing:20" level="project" />
     <orderEntry type="library" name="Maven: org.openjfx:javafx-swing:mac-aarch64:20" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.pdfbox:pdfbox:2.0.24" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.pdfbox:fontbox:2.0.24" level="project" />
+    <orderEntry type="library" name="Maven: commons-logging:commons-logging:1.2" level="project" />
   </component>
 </module>

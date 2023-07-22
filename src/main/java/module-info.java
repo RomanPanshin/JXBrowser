@@ -6,7 +6,7 @@ module org.openjfx {
     requires java.desktop;
     requires javafx.swing;
 
-//    requires commons.io; // Add this line to require the commons.io module
+    requires org.apache.pdfbox; // Add this line to require the pdfbox module
 
     opens org.openjfx to javafx.fxml;
     opens org.openjfx.controller to javafx.fxml;
